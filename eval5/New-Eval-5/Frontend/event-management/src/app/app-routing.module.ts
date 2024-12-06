@@ -12,6 +12,8 @@ import { AuthGuard } from '../app/auth.guard';
 import { PaymentComponent } from './components/payment/payment.component';
 import { RegistrationSuccessComponent } from './components/registration-success/registration-success.component';
 export const routes: Routes = [
+  { path: '', component: LoginComponent ,},
+
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
   { path: 'add-event', component: EventFormComponent ,},
