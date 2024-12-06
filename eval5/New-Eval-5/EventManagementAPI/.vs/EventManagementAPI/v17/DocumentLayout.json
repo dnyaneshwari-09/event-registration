@@ -1,0 +1,839 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\data\\eventmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\data\\eventmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\venuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\venuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\data\\seeddefaultuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\data\\seeddefaultuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\tickettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\tickettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\tickettypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\tickettypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\migrations\\20240905040559_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\migrations\\20240905040559_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\configuration\\tokengenerator\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\configuration\\tokengenerator\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\configuration\\tokengenerator\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\configuration\\tokengenerator\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\mappingprofiles\\eventprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\mappingprofiles\\eventprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\tickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\tickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\itickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\itickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\services\\tickettypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\services\\tickettypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\eventmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\eventmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175740_tablesUpdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175603_tablesUpdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174655_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174437_tablesUpdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\migrations\\20240907120827_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\migrations\\20240907120827_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\migrations\\20240908100446_nextupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\migrations\\20240908100446_nextupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\dell\\downloads\\eval5-main\\eval5-main\\backend\\eventmanagementapi\\eventmanagementapi\\migrations\\20240908071208_nextupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC0F389-5514-4549-873C-4955D6823263}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\migrations\\20240908071208_nextupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\Venue.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Venue.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\Venue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:38:25.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VenueDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\VenueDto.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\VenueDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\VenueDto.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\VenueDto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:25:44.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\AddEvent.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\AddEvent.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\AddEvent.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\AddEvent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\TicketTypeDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\TicketTypeDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\TicketTypeDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\TicketTypeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\EventDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\EventDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\EventDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\EventDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\VenueController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:29:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\EventManagementContext.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Data\\EventManagementContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\EventManagementContext.cs",
+              "RelativeToolTip": "EventManagementAPI\\Data\\EventManagementContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwEYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeedDefaultUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\SeedDefaultUser.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Data\\SeedDefaultUser.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\SeedDefaultUser.cs",
+              "RelativeToolTip": "EventManagementAPI\\Data\\SeedDefaultUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketType.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\TicketType.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\TicketType.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\TicketType.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\TicketType.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240908100446_nextupdate1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240908100446_nextupdate1.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Migrations\\20240908100446_nextupdate1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240908100446_nextupdate1.cs",
+              "RelativeToolTip": "EventManagementAPI\\Migrations\\20240908100446_nextupdate1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:04:47.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Category.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\TicketTypesController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\TicketTypesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\TicketTypesController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\TicketTypesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "EventManagementAPI\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240908071208_nextupdate.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240908071208_nextupdate.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Migrations\\20240908071208_nextupdate.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240908071208_nextupdate.cs",
+              "RelativeToolTip": "EventManagementAPI\\Migrations\\20240908071208_nextupdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T07:12:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240907120827_new.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240907120827_new.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Migrations\\20240907120827_new.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240907120827_new.cs",
+              "RelativeToolTip": "EventManagementAPI\\Migrations\\20240907120827_new.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T12:08:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Registration.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\Registration.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAiwCkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240905040559_updated.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240905040559_updated.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Migrations\\20240905040559_updated.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240905040559_updated.cs",
+              "RelativeToolTip": "EventManagementAPI\\Migrations\\20240905040559_updated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\User.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Models\\Payment.cs",
+              "RelativeToolTip": "EventManagementAPI\\Models\\Payment.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EventManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\appsettings.json",
+              "RelativeToolTip": "EventManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T11:08:30.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\TokenGenerator\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Configuration\\TokenGenerator\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\TokenGenerator\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "EventManagementAPI\\Configuration\\TokenGenerator\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\TokenGenerator\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Configuration\\TokenGenerator\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\TokenGenerator\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "EventManagementAPI\\Configuration\\TokenGenerator\\IJwtTokenGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EventProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\MappingProfiles\\EventProfile.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\MappingProfiles\\EventProfile.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\MappingProfiles\\EventProfile.cs",
+              "RelativeToolTip": "EventManagementAPI\\MappingProfiles\\EventProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Program.cs",
+              "RelativeToolTip": "EventManagementAPI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\RegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\RegistrationRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\RegistrationRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\RegistrationsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\RegistrationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITicketTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\ITicketTypeRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\ITicketTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\ITicketTypeRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\ITicketTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\TicketTypeRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\TicketTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\TicketTypeRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\TicketTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TicketTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Services\\TicketTypeService.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Services\\TicketTypeService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Services\\TicketTypeService.cs",
+              "RelativeToolTip": "EventManagementAPI\\Services\\TicketTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegistrationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\RegistrationDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\RegistrationDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\RegistrationDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\RegistrationDTO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\IRegistrationRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\IRegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\IRegistrationRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\IRegistrationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Services\\RegistrationService.cs",
+              "RelativeToolTip": "EventManagementAPI\\Services\\RegistrationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\UserProfileDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\UserProfileDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\UserProfileDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\UserProfileDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "EventManagementAPI\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\EventRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Repositories\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Repositories\\IEventRepository.cs",
+              "RelativeToolTip": "EventManagementAPI\\Repositories\\IEventRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EventManagementAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\EventManagementAPI.csproj",
+              "RelativeDocumentMoniker": "EventManagementAPI\\EventManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\EventManagementAPI.csproj",
+              "RelativeToolTip": "EventManagementAPI\\EventManagementAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-07T11:08:30.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240904175740_tablesUpdated.cs",
+              "DocumentMoniker": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175740_tablesUpdated.cs",
+              "ToolTip": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175740_tablesUpdated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:57:41.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240904175603_tablesUpdated.cs",
+              "DocumentMoniker": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175603_tablesUpdated.cs",
+              "ToolTip": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904175603_tablesUpdated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:56:03.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240904174655_tables.cs",
+              "DocumentMoniker": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174655_tables.cs",
+              "ToolTip": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174655_tables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:46:56.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240904174437_tablesUpdated.cs",
+              "DocumentMoniker": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174437_tablesUpdated.cs",
+              "ToolTip": "D:\\Evaluation4 azure\\Dnyaneshwari_Dhage\\Backend\\EventManagementAPI\\EventManagementAPI\\Migrations\\20240904174437_tablesUpdated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:44:37.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Configuration\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\eval5-main\\eval5-main\\Backend\\EventManagementAPI\\EventManagementAPI\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "EventManagementAPI\\Configuration\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T11:08:30.79Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

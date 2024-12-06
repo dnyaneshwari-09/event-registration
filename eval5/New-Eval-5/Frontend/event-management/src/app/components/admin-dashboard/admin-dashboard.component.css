@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-fluid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+}
+
+#sidebarMenu {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Scroll if content overflows */
+  background-color: #505152; /* Grey background color */
+}
+
+#sidebarMenu .nav-link {
+  color: #fff; /* White text color for better contrast */
+}
+
+#sidebarMenu .nav-link:hover {
+  color: #e9ecef; /* Light grey text color on hover */
+}
+
+main {
+  flex: 1;
+}

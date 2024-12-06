@@ -1,0 +1,68 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4 display-4">Upcoming Events</h2>
+
+  <!-- Display a message if there are no future events -->
+  <div *ngIf="futureEvents.length === 0" class="alert alert-info text-center">
+    No upcoming events.
+  </div>
+
+  <!-- Display future events in a card layout -->
+  <div class="row">
+    <div *ngFor="let event of futureEvents" class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100 shadow border-0" style="background-image: linear-gradient(135deg, #f9f9f9 0%, #e0e0e0 100%); border-radius: 20px;">
+        <div class="card-img-top position-relative">
+          <img src="https://img.freepik.com/free-vector/tiny-business-people-team-around-huge-calendar_107791-13876.jpg" alt="{{ event.eventName }}" class="img-fluid" style="border-radius: 20px 20px 0 0;">
+          <span class="badge bg-warning position-absolute top-0 start-0 m-3 p-2" style="font-size: 0.9rem;">
+            ${{ event.eventPrice }}
+          </span>
+        </div>
+        <div class="card-body p-4">
+          <h5 class="card-title text-dark">{{ event.eventName }}</h5>
+          <p class="card-text text-muted">
+            <strong>Date:</strong> {{ event.eventDateTime | date:'medium' }}<br>
+            <strong>Capacity:</strong> {{ event.capacityAvailable }} seats available
+          </p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-primary" (click)="openDetailsModal(event)">
+              <i class="fas fa-info-circle"></i> View Details
+            </button>
+            <button class="btn btn-success" (click)="selectEvent(event)">
+              <i class="fas fa-ticket-alt"></i> Select Event
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for event details -->
+  <div class="modal fade" id="eventDetailsModal" tabindex="-1" aria-labelledby="eventDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="eventDetailsModalLabel">{{ selectedEvent?.eventName }}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Date:</strong> {{ selectedEvent?.eventDateTime | date:'medium' }}</p>
+              <p><strong>Duration:</strong> {{ selectedEvent?.eventDuration }} hours</p>
+              <p><strong>Price:</strong> ${{ selectedEvent?.eventPrice }}</p>
+              <p><strong>Capacity Available:</strong> {{ selectedEvent?.capacityAvailable }}</p>
+            </div>
+            <div class="col-md-6">
+              <p><strong>Event Details:</strong> {{ selectedEvent?.eventDetails }}</p>
+              <p><strong>VIP Tickets:</strong> {{ selectedEvent?.vipTicketCount }}</p>
+              <p><strong>General Tickets:</strong> {{ selectedEvent?.generalTicketCount }}</p>
+              <p><strong>Economy Tickets:</strong> {{ selectedEvent?.economyTicketCount }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

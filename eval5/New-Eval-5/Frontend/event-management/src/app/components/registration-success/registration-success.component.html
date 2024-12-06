@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <div *ngIf="paymentData" class="card">
+    <div class="card-header text-center">
+      <h3>Registration Successful</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Payment Details</h5>
+      <p class="card-text">
+        <strong>Registration ID:</strong> {{ paymentData.registrationId }}
+      </p>
+      <p class="card-text">
+        <strong>Number of Tickets:</strong> {{ paymentData.noOfTickets }}
+      </p>
+      <p class="card-text">
+        <strong>Total Amount:</strong> ${{ paymentData.totalAmount }}
+      </p>
+      <p class="card-text">
+        <strong>Status:</strong> {{ paymentData.status }}
+      </p>
+      <p class="card-text">
+        <strong>Payment Method:</strong> {{ paymentData.paymentMethod }}
+      </p>
+    </div>
+    <!-- <div class="card-footer text-center">
+      <button class="btn btn-primary" routerLink="/event-selection">Back to Events</button>
+    </div> -->
+  </div>
+  <div *ngIf="!paymentData" class="alert alert-warning text-center mt-5">
+    No payment data found!
+  </div>
+</div>

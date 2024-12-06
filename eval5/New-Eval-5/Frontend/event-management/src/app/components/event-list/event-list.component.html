@@ -1,0 +1,89 @@
+<div class="container mt-4">
+  <h2>Events List</h2>
+
+  <!-- Search Input -->
+  <div class="form-group mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search by event name..."
+      [(ngModel)]="searchQuery"
+      (input)="searchEvents()"
+    />
+  </div>
+
+  <!-- Age Limit Filter -->
+<div class="form-group mb-3">
+  <input
+    type="number"
+    class="form-control"
+    placeholder="Filter by minimum age limit..."
+    [(ngModel)]="minAgeLimit"
+    (input)="searchEvents()"
+  />
+</div>
+
+  <!-- Table of Events -->
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th (click)="toggleSort('eventName')">Event Name</th>
+        <th (click)="toggleSort('ageLimit')">Age Limit</th>
+        <th (click)="toggleSort('eventDateTime')">Event Date</th>
+        <th (click)="toggleSort('eventPrice')">Price</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let event of filteredEvents | paginate: { itemsPerPage: pageSize, currentPage: page }">
+        <td>{{ event.eventName }}</td>
+        <td>{{ event.ageLimit }}</td>
+        <td>{{ event.eventDateTime | date: 'short' }}</td>
+        <td>{{ event.eventPrice }}</td>
+        <td>
+          <button class="btn btn-info" (click)="openModal(event)">Details</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Pagination -->
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+
+  <!-- Download CSV Button -->
+  <button class="btn btn-primary mt-3" (click)="downloadCSV()">Download CSV</button>
+
+  <!-- Modal for Event and Venue Details -->
+  <div class="modal fade" id="eventDetailsModal" tabindex="-1" aria-labelledby="eventDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="eventDetailsModalLabel">Event Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Name:</strong> {{ selectedEvent?.eventName }}</p>
+          <p><strong>Age Limit:</strong> {{ selectedEvent?.ageLimit }}</p>
+          <p><strong>Date and Time:</strong> {{ selectedEvent?.eventDateTime | date: 'short' }}</p>
+          <p><strong>Price:</strong> {{ selectedEvent?.eventPrice }}</p>
+          <p><strong>Duration:</strong> {{ selectedEvent?.eventDuration }} hours</p>
+          <p><strong>Details:</strong> {{ selectedEvent?.eventDetails }}</p>
+          <p><strong>Capacity Available:</strong> {{ selectedEvent?.capacityAvailable }}</p>
+
+          <!-- Venue Details -->
+          <h5 class="mt-4">Venue Details</h5>
+          <p><strong>Venue Name:</strong> {{ selectedVenue?.venueName }}</p>
+          <p><strong>Address 1:</strong> {{ selectedVenue?.venueAddress1 }}</p>
+          <p><strong>Address 2:</strong> {{ selectedVenue?.venueAddress2 || 'N/A' }}</p>
+          <p><strong>City:</strong> {{ selectedVenue?.city }}</p>
+          <p><strong>State:</strong> {{ selectedVenue?.state }}</p>
+          <p><strong>Pincode:</strong> {{ selectedVenue?.pincode }}</p>
+          <p><strong>Max Capacity:</strong> {{ selectedVenue?.maxCapacity }}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

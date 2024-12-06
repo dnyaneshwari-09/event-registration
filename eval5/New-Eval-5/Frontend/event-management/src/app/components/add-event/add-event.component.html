@@ -1,0 +1,271 @@
+<div class="container">
+  <h2 class="text-center mb-4">Create Event</h2>
+
+  <form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <!-- Event Name -->
+      <div class="col-md-6 mb-3">
+        <label for="eventName">Event Name</label>
+        <input
+          type="text"
+          id="eventName"
+          formControlName="eventName"
+          class="form-control"
+        />
+        <div
+          *ngIf="eventForm.get('eventName')?.invalid && eventForm.get('eventName')?.touched"
+          class="text-danger"
+        >
+          Event Name is required and cannot exceed 100 characters.
+        </div>
+      </div>
+
+      <!-- Event Date and Time -->
+      <div class="col-md-6 mb-3">
+        <label for="eventDateTime">Event Date and Time</label>
+        <input
+          type="datetime-local"
+          id="eventDateTime"
+          formControlName="eventDateTime"
+          class="form-control"
+          [min]="minDateTime"
+        />
+        <div
+          *ngIf="eventForm.get('eventDateTime')?.invalid && eventForm.get('eventDateTime')?.touched"
+          class="text-danger"
+        >
+          Please select a valid future date and time.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Event Price -->
+      <div class="col-md-4 mb-3">
+        <label for="eventPrice">Event Price</label>
+        <input
+          type="number"
+          id="eventPrice"
+          formControlName="eventPrice"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('eventPrice')?.invalid && eventForm.get('eventPrice')?.touched"
+          class="text-danger"
+        >
+          Event Price must be greater than zero
+        </div>
+      </div>
+
+      <!-- Age Limit -->
+      <div class="col-md-4 mb-3">
+        <label for="ageLimit">Age Limit</label>
+        <input
+          type="number"
+          id="ageLimit"
+          formControlName="ageLimit"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('ageLimit')?.invalid && eventForm.get('ageLimit')?.touched"
+          class="text-danger"
+        >
+          Age Limit must be above 5 Years
+        </div>
+      </div>
+
+      <!-- Event Duration -->
+      <div class="col-md-4 mb-3">
+        <label for="eventDuration">Event Duration (hours)</label>
+        <input
+          type="number"
+          id="eventDuration"
+          formControlName="eventDuration"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('eventDuration')?.invalid && eventForm.get('eventDuration')?.touched"
+          class="text-danger"
+        >
+          Event Duration must be 1 hour or greater
+        </div>
+      </div>
+    </div>
+
+    <!-- Event Details -->
+    <div class="row">
+      <div class="col-md-12 mb-3">
+        <label for="eventDetails">Event Details</label>
+        <textarea
+          id="eventDetails"
+          formControlName="eventDetails"
+          class="form-control"
+          maxlength="500"
+        ></textarea>
+        <div
+          *ngIf="eventForm.get('eventDetails')?.invalid && eventForm.get('eventDetails')?.touched"
+          class="text-danger"
+        >
+          Event Details cannot exceed 500 characters.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Category -->
+      <div class="col-md-6 mb-3">
+        <label for="categoryId">Category</label>
+        <select id="categoryId" formControlName="categoryId" class="form-control">
+          <option *ngFor="let category of categories" [value]="category.categoryId">
+            {{ category.categoryType }}
+          </option>
+        </select>
+        <div
+          *ngIf="eventForm.get('categoryId')?.invalid && eventForm.get('categoryId')?.touched"
+          class="text-danger"
+        >
+          Please select a category.
+        </div>
+      </div>
+
+      <!-- Venue -->
+      <div class="col-md-6 mb-3">
+        <label for="venueId">Venue</label>
+        <select id="venueId" formControlName="venueId" class="form-control" (change)="onVenueChange($event)">
+          <option *ngFor="let venue of venues" [value]="venue.venueId">{{ venue.venueName }}-{{venue.city}}</option>
+        </select>
+        <div
+          *ngIf="eventForm.get('venueId')?.invalid && eventForm.get('venueId')?.touched"
+          class="text-danger"
+        >
+          Please select a venue.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Ticket Type -->
+      <div class="col-md-4 mb-3">
+        <label for="ticketType">Ticket Type</label>
+        <select id="ticketType" formControlName="ticketTypeId" class="form-control">
+          <option *ngFor="let ticketType of ticketTypes" [value]="ticketType.ticketTypeId">
+            {{ ticketType.tickettype }}
+          </option>
+        </select>
+        <div
+          *ngIf="eventForm.get('ticketType')?.invalid && eventForm.get('ticketType')?.touched"
+          class="text-danger"
+        >
+          Please select a ticket type.
+        </div>
+      </div>
+
+      <!-- Max Capacity -->
+      <div class="col-md-4 mb-3">
+        <label for="maxCapacity">Max Capacity</label>
+        <input
+          type="number"
+          id="maxCapacity"
+          formControlName="maxCapacity"
+          class="form-control"
+          readonly
+        />
+        <div
+          *ngIf="eventForm.get('maxCapacity')?.invalid && eventForm.get('maxCapacity')?.touched"
+          class="text-danger"
+        >
+          Max Capacity must be a positive number.
+        </div>
+      </div>
+
+      <!-- Capacity Available -->
+      <div class="col-md-4 mb-3">
+        <label for="capacityAvailable">Capacity Available</label>
+        <input
+          type="number"
+          id="capacityAvailable"
+          formControlName="capacityAvailable"
+          class="form-control"
+          readonly
+        />
+        <div
+          *ngIf="eventForm.get('capacityAvailable')?.invalid && eventForm.get('capacityAvailable')?.touched"
+          class="text-danger"
+        >
+          Capacity Available must be a positive number.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- VIP Ticket Count -->
+      <div class="col-md-4 mb-3">
+        <label for="vipTicketCount">VIP Ticket Count</label>
+        <input
+          type="number"
+          id="vipTicketCount"
+          formControlName="vipTicketCount"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('vipTicketCount')?.errors?.['exceededCapacity']"
+          class="text-danger"
+        >
+          Total ticket counts exceed Max Capacity.
+        </div>
+      </div>
+
+      <!-- General Ticket Count -->
+      <div class="col-md-4 mb-3">
+        <label for="generalTicketCount">General Ticket Count</label>
+        <input
+          type="number"
+          id="generalTicketCount"
+          formControlName="generalTicketCount"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('generalTicketCount')?.errors?.['exceededCapacity']"
+          class="text-danger"
+        >
+          Total ticket counts exceed Max Capacity.
+        </div>
+      </div>
+
+      <!-- Economy Ticket Count -->
+      <div class="col-md-4 mb-3">
+        <label for="economyTicketCount">Economy Ticket Count</label>
+        <input
+          type="number"
+          id="economyTicketCount"
+          formControlName="economyTicketCount"
+          class="form-control"
+          min="0"
+        />
+        <div
+          *ngIf="eventForm.get('economyTicketCount')?.errors?.['exceededCapacity']"
+          class="text-danger"
+        >
+          Total ticket counts exceed Max Capacity.
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary" [disabled]="eventForm.invalid">
+        Submit
+      </button>
+    </div>
+
+    <!-- Success Message -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+  </form>
+</div>

@@ -1,0 +1,71 @@
+<div class="container mt-5">
+  <div class="card shadow-sm p-4" style="border-radius: 10px; background-color: #f8f9fa;">
+    <div class="card-header bg-primary text-white text-center" style="border-radius: 10px 10px 0 0;">
+      <h3>Complete Your Payment</h3>
+    </div>
+    <div class="card-body p-4">
+      <form [formGroup]="paymentForm" (ngSubmit)="onSubmit()">
+        <!-- Number of Tickets -->
+        <div class="form-group mb-4">
+          <label for="noOfTickets" class="form-label" style="font-weight: 600;">Number of Tickets</label>
+          <input
+            type="number"
+            id="noOfTickets"
+            class="form-control"
+            formControlName="noOfTickets"
+            (input)="calculateTotalAmount()"
+            [ngClass]="{'is-invalid': paymentForm.get('noOfTickets')?.invalid && paymentForm.get('noOfTickets')?.touched}"
+            min="1"
+            placeholder="Enter number of tickets"
+          />
+          <div *ngIf="paymentForm.get('noOfTickets')?.invalid && paymentForm.get('noOfTickets')?.touched" class="invalid-feedback">
+            Please enter a valid number of tickets.
+          </div>
+        </div>
+
+        <!-- Payment Method -->
+        <div class="form-group mb-4">
+          <label for="paymentMethod" class="form-label" style="font-weight: 600;">Payment Method</label>
+          <select
+            id="paymentMethod"
+            class="form-select"
+            formControlName="paymentMethod"
+            [ngClass]="{'is-invalid': paymentForm.get('paymentMethod')?.invalid && paymentForm.get('paymentMethod')?.touched}"
+          >
+            <option value="" disabled>Select payment method</option>
+            <option *ngFor="let method of paymentMethods" [value]="method">{{ method }}</option>
+          </select>
+          <div *ngIf="paymentForm.get('paymentMethod')?.invalid && paymentForm.get('paymentMethod')?.touched" class="invalid-feedback">
+            Please select a payment method.
+          </div>
+        </div>
+
+        <!-- Total Amount -->
+        <div class="form-group mb-4">
+          <label for="totalAmount" class="form-label" style="font-weight: 600;">Total Amount</label>
+          <input
+            type="text"
+            id="totalAmount"
+            class="form-control"
+            formControlName="totalAmount"
+            readonly
+            style="background-color: #e9ecef;"
+            placeholder="$0.00"
+          />
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button
+            type="submit"
+            class="btn btn-primary btn-lg px-5"
+            [disabled]="paymentForm.invalid"
+            style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);"
+          >
+            Pay and Register
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
